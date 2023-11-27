@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section1{
+    background-color: #003399;
+    position: relative;
+}
+
+.section1 .first{
+    color: #fff;
+    font-size: 14px;
+    line-height: 19.6px;
+    padding-top: 3px;
+}
+.section1 .second{
+    position: relative;
+
+}
+.section1 .second img{
+    width: 100%;
+    text-align: center;
+}
+ .content{
+    color: #fff;
+    position: absolute;
+    top: 15vh;
+    right: 50vh;
+    left: 50vh;
+}
+.content h1{
+    font-size: 80px;
+    font-weight: 500;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.content p{
+    font-size: 28px;
+}
+#btn{
+    outline: none;
+    border: none;
+    background-color: #70BD0E;
+}
+.section2 img{
+    margin: 5px;
+    /* height: 90%; */
+    /* width: 100%; */
+    object-fit: cover;
+}
+.section2 .container {
+    margin-bottom: 15vh;
+    margin-top: 8vh;
+}
+.section2 .gx .col-lg-6{
+    height: 70px;
+    overflow: hidden;
+}
+.section2 .prior .g .col-6{
+    height: 50px;
+    overflow: hidden;
+}
+.section2 .prior .g .col-6 img{
+    height: 100%;
+}
+.section2 .prior{
+    margin-bottom:15vh ;
+} 
+.section2 .gx{
+    --bs-gutter-x: -20px;
+}
+
+.europe{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    margin-right: 3em;
+}
+.text h3{
+    font-weight: 600;
+    /* font-family: Inter; */
+    font-size: 35px;
+}
+.log{
+    width: 80px;
+    height: px;
+    /* object-fit: contain; */
+    
+}
+.image img{
+    width: 55vh;
+}
+.text p{
+    font-family: Inter;
+    line-height: 21.5px;
+    margin-bottom: 20px;
+}
+
+.prior{
+    text-align: center;
+    margin-top: 12vh;
+}
+.logo img{
+    width: 50em;
+}
+
+.text2 h3{
+    font-weight: 600;
+    /* font-family: Inter; */
+    font-size: 32px;
+}
+
+/* .phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+} */
+.phone img{
+    width: 20em;
+}
+.image{
+    margin-right: 10vh;
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 51, 153, 0.9), rgba(0, 51, 153, 0.9)),
+    url("images/Group\ 40045.png");
+    margin-top: 10vh;
+}
+.section4 ul li a{
+    margin-left: 10px;
+}
+.trade{
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    /* margin-bottom: 10vh; */
+}
+.trade p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.section4{
+    background-color: rgba(2, 41, 118, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5em;
+}
+.justmarket{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.justmarket h3{
+    color: white;
+    font-size: 2em;
+}
+.text4{
+    /* width: 945px; */
+    margin-right: 20px;
+}
+.text4 p{ 
+    color: rgba(112, 171, 220, 1);
+    font-size: 14px;
+    text-align: justify;
+}
+
+.footer{
+    background-color: rgba(2, 41, 118, 1);
+}
+.footer .container ul li a{
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 14px;
+}
+hr{
+    background-color: white;
+    height: 3px;
+}
+
+.mob{
+    display: none;
+}
+
+
+@media (min-width:992px){
+    .section2 .gx-f{
+        --bs-gutter-x: -20em;
+    }
+}
+@media(max-width:568px){
+   .content .first{
+        font-family: Arial;
+        font-size: 8px;
+        line-height: 15px;
+}
+
+.section1 .second .secon{
+    /* width: 150%; */
+    /* text-align: center; */
+    display: none;
+}
+.mob{
+    display: block;
+    width: 20px;
+}
+
+.content{
+    color: #fff;
+    /* text-align: center; */
+    position: absolute;
+    left: 10vh;
+    right: 18vh;
+    top: 10vh;
+}
+.content h1{
+    font-size: 30px;
+}
+.content p{
+    font-size: 15px;
+}
+
+.europe{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+.text{
+    text-align: left;
+}
+.text h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.image img{
+    width: 50vh;
+    padding: 15px;
+}
+.europe button{
+    display: block;
+    text-align: center;
+    padding: 10px 40px;
+}
+.logo img{
+    width: 30em;
+}
+.section2 .gy-0 img{
+    /* margin: 5px; */
+    height: 90%;
+    width: 100%;
+    /* object-fit: cover; */
+}
+}
